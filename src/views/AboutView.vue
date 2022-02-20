@@ -1,5 +1,15 @@
 <template>
-  <div class="about">
+  <MainContainer>
     <h1>This is an about page</h1>
-  </div>
+  </MainContainer>
 </template>
+
+
+<script>
+import MainContainer from '../components/MainContainer.vue'
+export default {
+  components: {
+    MainContainer,
+  },
+}
+</script>
