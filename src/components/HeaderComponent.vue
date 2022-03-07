@@ -50,7 +50,7 @@ export default {
 .menu-link {
   padding: 25px 30px;
   &:hover {
-  background: $grey;
+  background: $greyLight;
   }
 }
 .icons {
@@ -58,7 +58,7 @@ export default {
     width: 30px;
     height: 30px;
     text-align: center;
-    border: 1px solid $grey;
+    border: 1px solid $greyLight;
     border-radius: 15px;
     margin-right: 10px;
     display: inline-block;

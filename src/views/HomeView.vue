@@ -18,18 +18,30 @@
         </div>
       </div>
     </div>
+    <Features :data="featureData"/>
+    <Properties :propertyData="propertyData"/>
   </div>
 </template>
 
 
 <script>
-
+import {featureData, propertyData} from '../data/data.dummy';
 import Carusel from '../components/CaruselComponent.vue';
+import Features from '../components/FeaturesComponent.vue';
+import Properties from '../components/PropertiesComponent.vue';
 
 export default {
   name: 'HomeView',
   components: {
     Carusel,
+    Features,
+    Properties,
   },
+  data() {
+    return {
+      featureData: featureData,
+      propertyData: propertyData,
+    }
+  }
 }
 </script>
