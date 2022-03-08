@@ -15,7 +15,7 @@
             </div>
             </div>
             <div class="carousel-item">
-            <img src="../assets/images/slide.png" class="d-block w-100" alt="">
+            <img src="../assets/images/slide2.png" class="d-block w-100" alt="">
             <div class="carousel-caption d-none d-md-block carousel-caption_fontsize">
                 <h5>Second slide label</h5>
                 <p>Some representative placeholder content for the second slide.</p>
