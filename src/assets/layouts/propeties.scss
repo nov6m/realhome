@@ -1,0 +1,127 @@
+.properties {
+    text-align: center;
+    padding: 100px 0;
+    background: $grey2;
+
+    &__h2 {
+        position: relative;
+        margin-bottom: 30px;
+        padding-bottom: 40px;
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            background: $red;
+            width: 100px;
+            height: 3px;
+            transform: translateX(-50%);
+        }
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    &__col {
+        border: 1px $grey3 solid;
+        padding: 0;
+        max-width: 365px;
+        width: 100%;
+        margin-bottom: 30px;
+
+        p {
+            margin: 0;
+        }
+    }
+
+    &__subtitle {
+        max-width: 560px;
+        margin: 0 auto;
+        padding-bottom: 70px;
+    }
+
+    &__img {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    &__h4, &__sub {
+        padding-bottom: 20px;
+    }
+
+    &__h4, &__desc {
+        margin-bottom: 0;
+    }
+
+    &__h4 {
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    &__sub {
+        font-size: 15px;
+    }
+
+    &__price {
+        color: $red;
+        font-weight: bold;
+        padding-bottom: 30px;
+    }
+
+    &__desc,
+	&__sub {
+		color: $grey4;
+	}
+
+    &__desc {
+        display: flex;
+        justify-content: center;
+        padding: 15px 0;
+
+        border-top: 1px $grey3 solid;
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    &__item {
+        padding-right: 15px;
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            right: 5px;
+            background: $grey4;
+            width: 5px;
+            height: 5px;
+            top: 59%;
+            border-radius: 50%;
+            transform: translateY(-50%);
+        }
+
+        &:last-child {
+
+            &::after {
+                content: none;
+            }
+        }
+    }
+    
+    &__more {
+        margin-top: 30px;
+        background: $red;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        outline: none;
+        border: none;
+        padding: 18px 25px;
+        &:hover {
+            background: $redDark;
+        }
+    }
+}

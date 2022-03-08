@@ -33,7 +33,7 @@ export const propertyData = [
         title: '1450 Cloudcroft Drop',
         image: 'property_pic1',
         subtitle: 'Illinois / Chicago',
-        price: 250000,
+        price: 250,
         desc: {
             sqft: '1450',
             rooms: 2,
@@ -45,7 +45,7 @@ export const propertyData = [
         title: '140 Small Village',
         image: 'property_pic2',
         subtitle: 'Missouri / Kansas City',
-        price: 200000,
+        price: 200,
         desc: {
             sqft: '140',
             rooms: 2,
@@ -57,7 +57,7 @@ export const propertyData = [
         title: '1250 Lake House ',
         image: 'property_pic3',
         subtitle: 'Colorado / Denver',
-        price: 339000,
+        price: 339,
         desc: {
             sqft: '1250',
             rooms: 2,
@@ -69,7 +69,7 @@ export const propertyData = [
         title: '1450 Cloudcroft Drop',
         image: 'property_pic1',
         subtitle: 'Illinois / Chicago',
-        price: 250000,
+        price: 250,
         desc: {
             sqft: '1450',
             rooms: 2,
@@ -81,7 +81,7 @@ export const propertyData = [
         title: '140 Small Village',
         image: 'property_pic2',
         subtitle: 'Missouri / Kansas City',
-        price: 200000,
+        price: 200,
         desc: {
             sqft: '140',
             rooms: 2,
@@ -93,7 +93,7 @@ export const propertyData = [
         title: '1250 Lake House ',
         image: 'property_pic3',
         subtitle: 'Colorado / Denver',
-        price: 339000,
+        price: 339,
         desc: {
             sqft: '1250',
             rooms: 2,
